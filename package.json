@@ -7,13 +7,20 @@
     "hcs",
     "util"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "yarn build:tsc",
+    "build:tsc": "yarn tsc"
+  },
   "exports": {
     ".": {
-      "types": "./index.d.ts",
-      "import": "./index.js",
-      "default": "./index.js"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.ts"
     }
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.8",
+    "typescript": "^5.1.6"
+  }
 }
