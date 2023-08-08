@@ -1,0 +1,12 @@
+{
+  "name": "test-hcs-utils",
+  "version": "0.0.2",
+  "type": "module",
+  "description": "Test Common Utils For HCS",
+  "keywords": [
+    "hcs",
+    "util"
+  ],
+  "main": "index.js",
+  "license": "MIT"
+}
