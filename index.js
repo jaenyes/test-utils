@@ -6,7 +6,4 @@ const subtract = (a, b) => {
   return a - b;
 };
 
-exports = {
-  add,
-  subtract,
-};
+export { add, subtract };
